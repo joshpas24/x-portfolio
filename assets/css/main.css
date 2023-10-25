@@ -23,7 +23,7 @@
 
 .skills-list {
 	display: grid;
-	grid-template-columns: repeat(4, 1fr);
+	grid-template-columns: repeat(6, 1fr);
 }
 
 .skill-item {
@@ -35,10 +35,16 @@
 	padding: 15px;
 }
 
-.skill-item img {
+.skill-item div {
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	width: 100%;
+	height: auto;
+}
+
+.skill-item img {
+	width: 80%;
 	height: auto;
 }
 
